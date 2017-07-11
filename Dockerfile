@@ -16,7 +16,7 @@ RUN yum install -y nmap openssl-devel
 RUN yum -y install epel-release
 RUN yum -y install python-pip
 
-
+COPY pip.conf ~/.pip/pip.conf
 # create app web
 RUN mkdir -p /opt/webapp/
 ADD requirements.txt /opt/webapp/requirement.txt
