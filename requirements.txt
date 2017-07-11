@@ -111,3 +111,10 @@ threadpool
 # cesec_host_agent/plugins/poc_module/plugins/pocsuite/thirdparty/requests/packages/urllib3/contrib/ntlmpool.py: 14
 # cesec_host_agent/plugins/poc_module/plugins/tangscan/tangscan/thirdparty/requests/packages/urllib3/contrib/ntlmpool.py: 14
 urllib3
+
+
+dnspython
+nmap
+dominate
+
+supervisor
