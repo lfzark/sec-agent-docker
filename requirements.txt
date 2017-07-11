@@ -114,7 +114,10 @@ urllib3
 
 
 dnspython
-nmap
+python-nmap
 dominate
 
 supervisor
+
+gevent
+psutil
