@@ -8,6 +8,9 @@ RUN yum -y update && yum -y install wget
 # install lib devel
 RUN yum install -y python-devel mysql-devel gcc 
 
+# install mysql-client support 
+RUN yum install -y mysql
+
 # Nmap Openssl
 RUN yum install -y nmap openssl-devel 
 
@@ -16,7 +19,7 @@ RUN yum install -y nmap openssl-devel
 RUN yum -y install epel-release
 RUN yum -y install python-pip
 
-COPY pip.conf ~/.pip/pip.conf
+
 # create app web
 RUN mkdir -p /opt/webapp/
 ADD requirements.txt /opt/webapp/requirement.txt
@@ -25,5 +28,4 @@ ADD requirements.txt /opt/webapp/requirement.txt
 # install python lib env
 WORKDIR /opt/webapp/
 RUN pip install --upgrade pip && pip install -r requirement.txt
-
 
