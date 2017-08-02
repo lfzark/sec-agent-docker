@@ -121,3 +121,6 @@ supervisor
 
 gevent
 psutil
+
+# Mirror Flow
+sqlalchemy
