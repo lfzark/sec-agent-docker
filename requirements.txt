@@ -124,3 +124,4 @@ psutil
 
 # Mirror Flow
 sqlalchemy
+MySQL-python
