@@ -61,7 +61,7 @@ pyasn1
 pyparsing
 
 # cesec_host_agent/plugins/PortScanPlugin.py: 9
-python_nmap
+python-nmap
 
 # cesec_host_agent/plugins/poc_module/plugins/pocsuite/packages/requests/packages/urllib3/contrib/ntlmpool.py: 19
 # cesec_host_agent/plugins/poc_module/plugins/pocsuite/thirdparty/requests/packages/urllib3/contrib/ntlmpool.py: 12
@@ -114,7 +114,6 @@ urllib3
 
 
 dnspython
-python-nmap
 dominate
 
 supervisor
